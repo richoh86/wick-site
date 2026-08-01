@@ -14,6 +14,10 @@
     color: var(--ink); font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
   h1 { font-size: 2rem; margin: 0 0 .35rem; letter-spacing: -.02em; }
   h2 { font-size: 1.1rem; margin: 2.2rem 0 .6rem; }
+  /* Without this h3 falls back to the browser default, which is *larger* than
+     the 1.1rem h2 above and makes every FAQ question outrank its section. */
+  h3 { font-size: 1rem; margin: 1.6rem 0 .35rem; color: var(--accent); }
+  h3 + p { margin-top: 0; }
   .sub { color: var(--dim); margin: 0 0 2rem; }
   .lede { background: var(--card); border: 1px solid var(--line); border-radius: .7rem;
     padding: 1rem 1.15rem; margin: 0 0 2rem; }
@@ -31,8 +35,50 @@
 <span style="color:var(--dim)">It helps to include your iPhone model, your iOS
 version, and what you were doing when the problem happened.</span></p>
 <h2>Frequently asked</h2>
-<p>TODO — add the questions people actually ask. A support page with nothing on
-it is worse than a short honest one.</p>
+
+<h3>Nothing happens when I tap.</h3>
+<p>WICK needs <strong>two fingers on the screen at once</strong>. They are the two
+ends of the burning thread, and the thread is the thing you control — there is no
+character and no buttons. One finger alone will not start anything.</p>
+
+<h3>How do I pick up an ember?</h3>
+<p>Bring your fingers <em>together</em>. The thread's total length never changes, so
+closing the gap makes it sag into a basket that an ember can fall into and rest in.</p>
+
+<h3>I am cradling an ember over the brazier and nothing happens.</h3>
+<p>Hovering above the bowl is not delivery. You have to <strong>lower the sag into
+the brazier</strong> so the ember drops in. This is the single most common thing new
+players get stuck on.</p>
+
+<h3>My lanterns will not light.</h3>
+<p>A slack thread is cold. Spread your fingers apart until the thread pulls taut and
+begins to glow, then hold it against the lantern for a moment. The same heat is what
+burns the gloom — a cold thread <em>feeds</em> the gloom instead.</p>
+
+<h3>I keep running out of fuel.</h3>
+<p>That is the game, not a bug. Fuel is at once your health bar and how far you can
+see, so a bright taut thread costs several times what a dim slack one does. Stay
+slack when you are only moving, and go taut only when you need heat. Oil pods are
+the only thing that refills you meaningfully.</p>
+
+<h3>Can I anchor one end?</h3>
+<p>Yes. <strong>Lift one finger and that end pins itself where it was</strong>, leaving
+the other free to sweep. The game never tells you this, and it is the most useful
+tactic in it.</p>
+
+<h3>Where is my progress saved? Is there an account?</h3>
+<p>There is no account and no sign-in. Your best score is kept in the app's own
+private storage on the device, so deleting the app deletes it. Nothing is uploaded —
+the app makes no network connections at all.</p>
+
+<h3>Does it work offline / in Airplane Mode?</h3>
+<p>Always. The app has no networking code, no ads and no analytics. Every texture is
+drawn and every sound is synthesised on your device when the game launches.</p>
+
+<h3>The game feels too hard or too easy.</h3>
+<p>Tell me — how far apart your hands naturally sit changes how quickly the thread
+reads as "taut", and that is exactly the kind of thing an email can fix in the next
+version. Include your iPhone model.</p>
 <footer><a href="privacy.html">Privacy Policy</a> · © 2026 WICK: Burning Thread. All rights reserved.</footer>
 </body>
 </html>
