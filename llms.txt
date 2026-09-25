@@ -1,0 +1,18 @@
+# WICK: Burning Thread
+
+> WICK is a free iPhone and iPad game in which you do not control a character — you control the rope. Two fingers on the glass are the two endpoints of a single burning thread whose total length never changes, so the distance between your fingers is the game's only input. Bring them together and the thread sags into a cold, dim basket that can catch and carry falling embers; spread them apart and it snaps taut, hot enough to light lanterns and burn through the gloom, and expensive enough to kill you, because fuel is at once the health bar and the light radius. No ads, no in-app purchases, no account, and no network code at all — it works fully offline. In Korean the game is titled "WICK: 불타는 실". It is not related to John Wick or to candle-making; the wick of the title is the burning thread itself.
+
+## The three rules
+
+1. The thread's total length never changes. Finger spread is the only input: together is a slack basket, apart is a taut blade.
+2. Fuel is both health and light. Burning taut is the fastest way to see, to score and to die; oil pods are the only refill.
+3. Nothing snaps to anything. Embers are loose particles that settle where the thread sags, so catching one is a placement problem, and delivering it to the brazier is a separate move from catching it.
+
+## Links
+
+- [Website (English)](https://richoh86.github.io/wick-site/)
+- [Website (Korean / 한국어)](https://richoh86.github.io/wick-site/ko/)
+- [App Store](https://apps.apple.com/app/id6796936381)
+- [Press kit](https://richoh86.github.io/wick-site/press.html)
+- [Support](https://richoh86.github.io/wick-site/support.html)
+- [Privacy policy](https://richoh86.github.io/wick-site/privacy.html)
